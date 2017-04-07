@@ -26,7 +26,7 @@
 ### Pattern 2 : (100 Points)
 
 
-> Use an **API to collect data and store it**. Perform **4** analysis on the dataset and create a Readme.md file explaining your analysis.
+> Use an **API to collect data and store it**. Perform **3** analysis on the dataset and create a Readme.md file explaining your analysis.
 
 
 
