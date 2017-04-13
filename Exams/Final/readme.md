@@ -59,6 +59,10 @@ data_download_key = os.get_env('data_download_key')
 ```
 - You can only use `matplotlib,seaborn,bokeh` to create plots. Highly recommended to have plot as a part of your analysis. You can have multiple plots per analysis
 
+- To get data from an API, please use requests library in Python. Try not to use inbuilt packages that can get data from a particular API.
+
+- All your analysis should be done in one topic only. You can use a dataset and combine with another one for performing analysis. But you are not supposed to do one analysis in each dataset. If using multiple datasets, you are expected to combine them to perform an analyis to find relationships between them rather than using them individually. Any further questions about this, please reach out to the TA's. 
+
 - Submitting the dataset (should be in `data` folder only):
 	- If it is possible, create a top level folder called as `data/raw_data` and upload your data over there.
 	- If the data is too big to upload and you have a link from where you downloaded the data , you can just put a **txt file** containing that link and additional instructions that the TA can use to download the data at `data/raw_data/link_to_data.txt`. **The TA should be able to download the data else you will lose point if the instructions are missing**
