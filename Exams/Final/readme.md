@@ -62,10 +62,13 @@ data_download_key = os.get_env('data_download_key')
 - To get data from an API, please use requests library in Python. Try not to use inbuilt packages that can get data from a particular API.
 
 - All your analysis should be done in one topic only. You can use a dataset and combine with another one for performing analysis. But you are not supposed to do one analysis in each dataset. If using multiple datasets, you are expected to combine them to perform an analyis to find relationships between them rather than using them individually. Any further questions about this, please reach out to the TA's. 
+- It is good practice to have a separate Ipython notebook with the code to gather and store data. Don't include the part of collecting and storing as part of your analysis, unless and until you are fetching some specific data as part of your analysis.
+- Even if you read the raw data (eg.json files) to convert them to a csv and using it for analysis, you should store the raw data that you retrieve.
 
 - Submitting the dataset (should be in `data` folder only):
 	- If it is possible, create a top level folder called as `data/raw_data` and upload your data over there.
 	- If the data is too big to upload and you have a link from where you downloaded the data , you can just put a **txt file** containing that link and additional instructions that the TA can use to download the data at `data/raw_data/link_to_data.txt`. **The TA should be able to download the data else you will lose point if the instructions are missing**
+	- Do NOT upload raw data in a zip file. If using an API, please upload data as and when fetched so that you dont' face any git issues when uploading all the data together.
 	- If none if the above ways work for you, you can sample the data and upload the sampled data in `data/raw_data`. 
 
 - Following folder/file structure is **required** : 
